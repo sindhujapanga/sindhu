@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script src="fun1.js"></script>
+</head>
+
+<body bgcolor="skyblue">
+
+<form name="registration" onSubmit="fun1()">
+
+<table>
+
+<tr>
+<td>UserId:</td>
+<td><input type="text" name="id"></td>
+</tr>  
+
+<tr>
+<td>Password:</td>
+<td><input type="password" name="pass"></td>
+</tr>  
+
+<tr>
+<td>UName</td>
+<td><input type="text" name="username"></td>
+</tr> 
+
+<tr>
+<td>Gender: </td>
+<td><input type="radio" name="x" id="a" value="male"> Male
+<input type="radio" name="x" id="a" value="female"> Female
+<input type="radio" name="x" id="a" value="other"> Other</td>
+</tr>  
+
+<tr>
+<td>Email:</td><td><input type="email" name="email"/></td>
+</tr>
+
+<tr>
+<td>Address:</td>
+<td><textarea name="address"></textarea></td>
+</tr>
+
+<tr>
+<td>Country</td><td><select name="country">
+<option value="india">India</option>
+<option value="Us">US</option>
+<option value="Australia">Australia</option>
+<option value="Canada">Canada</option>
+</select></td>
+</tr>
+
+<tr>
+<td>Zipcode:</td>
+<td><input type="number" name="code"></td>
+</tr>
+
+<tr>
+<td>Language:</td>
+<td><input type="checkbox" name="language" value="english">English
+<input type="checkbox" name="language" value="hindi">hindi
+<input type="checkbox" name="language" value="other" checked>other
+</td>
+</tr>
+
+<tr>
+<td>About:</td>
+<td><textarea name="about"></textarea></td>
+</tr>
+
+<center><tr>
+<td><input type="submit" value="submit"></td>
+<td><input type="reset" value="reset" ></td></tr></center>
+
+</table>
+</form>
+</body>
+</html>
